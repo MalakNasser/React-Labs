@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: transparent;
+  color: #ba352e;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-button:hover {
+  color: #f5868c;
+}
+
+.nav-button.active {
+  border-bottom: 2px solid #ba352e;
+}
